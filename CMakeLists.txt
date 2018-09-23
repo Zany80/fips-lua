@@ -17,12 +17,12 @@ fips_begin_lib(lua)
         lauxlib.c
         lauxlib.h
         lbaselib.c
-        lbitlib.c
+        #lbitlib.c
         lcode.c
         lcode.h
-        lcorolib.c
-        lctype.c
-        lctype.h
+        #lcorolib.c
+        #lctype.c
+        #lctype.h
         ldblib.c
         ldebug.c
         ldebug.h
@@ -47,7 +47,7 @@ fips_begin_lib(lua)
         lopcodes.h
         lparser.c
         lparser.h
-        lprefix.h
+        #lprefix.h
         lstate.c
         lstate.h
         lstring.c
@@ -62,7 +62,7 @@ fips_begin_lib(lua)
         lualib.h
         lundump.c
         lundump.h
-        lutf8lib.c
+        #lutf8lib.c
         lvm.c
         lvm.h
         lzio.c
