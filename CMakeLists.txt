@@ -8,7 +8,7 @@ endif()
 # NOTE: the files lua.c and linit.c are not included, lua.c contains the main()
 # function, and linit.c would load all libs, instead create a local linit.c in
 # your own project, and just load the libs you need there!
-fips_begin_lib(lua)
+fips_begin_module(lua)
     fips_dir(lua)
     fips_files(
         lua.h
